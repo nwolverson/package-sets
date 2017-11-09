@@ -635,6 +635,24 @@
     "repo": "https://github.com/purescript-contrib/purescript-http-methods.git",
     "version": "v3.0.0"
   },
+  "ide-purescript-core": {
+    "dependencies": [
+      "psc-ide",
+      "node-fs-aff",
+      "node-child-process",
+      "node-process",
+      "arrays",
+      "maybe",
+      "either",
+      "argonaut",
+      "strings",
+      "refs",
+      "nullable",
+      "stringutils"
+    ],
+    "repo": "https://github.com/nwolverson/purescript-ide-purescript-core.git",
+    "version": "purs-0.12"
+  },
   "identity": {
     "dependencies": [
       "foldable-traversable"
@@ -711,6 +729,16 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-js-timers.git",
     "version": "v3.0.0"
+  },
+  "language-server": {
+    "dependencies": [
+      "aff-promise",
+      "errors",
+      "foreign-generic",
+      "ide-purescript-core"
+    ],
+    "repo": "https://github.com/nwolverson/purescript-language-server.git",
+    "version": "master"
   },
   "lazy": {
     "dependencies": [
@@ -1122,6 +1150,21 @@
     "repo": "https://github.com/purescript/purescript-proxy.git",
     "version": "v2.1.0"
   },
+  "psc-ide": {
+    "dependencies": [
+      "random",
+      "parallel",
+      "node-fs",
+      "node-child-process",
+      "maybe",
+      "console",
+      "arrays",
+      "argonaut",
+      "aff"
+    ],
+    "repo": "https://github.com/kRITZCREEK/purescript-psc-ide.git",
+    "version": "purs-0.12"
+  },
   "psci-support": {
     "dependencies": [
       "console"
@@ -1384,6 +1427,19 @@
     ],
     "repo": "https://github.com/purescript/purescript-strings.git",
     "version": "v3.3.0"
+  },
+  "stringutils": {
+    "dependencies": [
+      "strings",
+      "partial",
+      "arrays",
+      "either",
+      "maybe",
+      "prelude",
+      "integers"
+    ],
+    "repo": "https://github.com/menelaos/purescript-stringutils.git",
+    "version": "v0.0.7"
   },
   "strongcheck": {
     "dependencies": [
