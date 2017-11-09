@@ -66,6 +66,13 @@
     "repo": "https://github.com/hdgarrood/purescript-ansi.git",
     "version": "v4.0.0"
   },
+  "ansi": {
+    "dependencies": [
+      "strings"
+    ],
+    "repo": "https://github.com/hdgarrood/purescript-ansi.git",
+    "version": "v4.0.0"
+  },
   "argonaut": {
     "dependencies": [
       "argonaut-codecs",
@@ -161,6 +168,16 @@
     ],
     "repo": "https://github.com/slamdata/purescript-avar.git",
     "version": "v2.0.1"
+  },
+  "atom-api": {
+    "dependencies": [
+      "eff",
+      "foreign",
+      "unsafe-coerce",
+      "dom"
+    ],
+    "repo": "https://github.com/nwolverson/purescript-atom-api.git",
+    "version": "ide-purescript"
   },
   "behaviors": {
     "dependencies": [
@@ -1056,6 +1073,16 @@
     "repo": "https://github.com/purescript-contrib/purescript-js-timers.git",
     "version": "v3.0.0"
   },
+  "language-server": {
+    "dependencies": [
+      "aff-promise",
+      "errors",
+      "foreign-generic",
+      "ide-purescript-core"
+    ],
+    "repo": "https://github.com/nwolverson/purescript-language-server.git",
+    "version": "v0.10.2"
+  },
   "lazy": {
     "dependencies": [
       "monoid"
@@ -1691,6 +1718,30 @@
     "repo": "https://github.com/purescript/purescript-proxy.git",
     "version": "v2.1.0"
   },
+  "psa-utils": {
+    "dependencies": [
+      "argonaut",
+      "ansi",
+      "node-path"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-psa-utils",
+    "version": "v3.0.0"
+  },
+  "psc-ide": {
+    "dependencies": [
+      "random",
+      "parallel",
+      "node-fs",
+      "node-child-process",
+      "maybe",
+      "console",
+      "arrays",
+      "argonaut",
+      "aff"
+    ],
+    "repo": "https://github.com/kRITZCREEK/purescript-psc-ide.git",
+    "version": "v12.0.0"
+  },
   "psci-support": {
     "dependencies": [
       "console"
@@ -2107,6 +2158,19 @@
       "integers",
       "partial",
       "strings"
+    ],
+    "repo": "https://github.com/menelaos/purescript-stringutils.git",
+    "version": "v0.0.7"
+  },
+  "stringutils": {
+    "dependencies": [
+      "strings",
+      "partial",
+      "arrays",
+      "either",
+      "maybe",
+      "prelude",
+      "integers"
     ],
     "repo": "https://github.com/menelaos/purescript-stringutils.git",
     "version": "v0.0.7"
