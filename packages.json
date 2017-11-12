@@ -107,6 +107,16 @@
     "repo": "https://github.com/purescript/purescript-assert.git",
     "version": "v3.0.0"
   },
+  "atom-api": {
+    "dependencies": [
+      "eff",
+      "foreign",
+      "unsafe-coerce",
+      "dom"
+    ],
+    "repo": "https://github.com/nwolverson/purescript-atom-api.git",
+    "version": "ide-purescript"
+  },
   "behaviors": {
     "dependencies": [
       "prelude",
