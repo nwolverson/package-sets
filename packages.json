@@ -37,6 +37,13 @@
     "repo": "https://github.com/slamdata/purescript-affjax.git",
     "version": "v4.0.0"
   },
+  "ansi": {
+    "dependencies": [
+      "strings"
+    ],
+    "repo": "https://github.com/hdgarrood/purescript-ansi.git",
+    "version": "v4.0.0"
+  },
   "argonaut": {
     "dependencies": [
       "argonaut-traversals",
@@ -1159,6 +1166,15 @@
     ],
     "repo": "https://github.com/purescript/purescript-proxy.git",
     "version": "v2.1.0"
+  },
+  "psa-utils": {
+    "dependencies": [
+      "argonaut",
+      "ansi",
+      "node-path"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-psa-utils",
+    "version": "v3.0.0"
   },
   "psc-ide": {
     "dependencies": [
