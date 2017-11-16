@@ -668,7 +668,7 @@
       "stringutils"
     ],
     "repo": "https://github.com/nwolverson/purescript-ide-purescript-core.git",
-    "version": "purs-0.12"
+    "version": "v0.13.0"
   },
   "identity": {
     "dependencies": [
@@ -755,7 +755,7 @@
       "ide-purescript-core"
     ],
     "repo": "https://github.com/nwolverson/purescript-language-server.git",
-    "version": "master"
+    "version": "v0.4.1"
   },
   "lazy": {
     "dependencies": [
@@ -1189,7 +1189,7 @@
       "aff"
     ],
     "repo": "https://github.com/kRITZCREEK/purescript-psc-ide.git",
-    "version": "purs-0.12"
+    "version": "v10.0.0"
   },
   "psci-support": {
     "dependencies": [
