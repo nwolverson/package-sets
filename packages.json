@@ -654,6 +654,8 @@
   },
   "ide-purescript-core": {
     "dependencies": [
+      "errors",
+      "affjax",
       "psc-ide",
       "node-fs-aff",
       "node-child-process",
@@ -755,7 +757,7 @@
       "ide-purescript-core"
     ],
     "repo": "https://github.com/nwolverson/purescript-language-server.git",
-    "version": "v0.5.4"
+    "version": "v0.5.5"
   },
   "lazy": {
     "dependencies": [
