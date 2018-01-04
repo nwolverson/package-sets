@@ -668,7 +668,7 @@
       "stringutils"
     ],
     "repo": "https://github.com/nwolverson/purescript-ide-purescript-core.git",
-    "version": "v0.13.0"
+    "version": "v0.14.0"
   },
   "identity": {
     "dependencies": [
@@ -755,7 +755,7 @@
       "ide-purescript-core"
     ],
     "repo": "https://github.com/nwolverson/purescript-language-server.git",
-    "version": "v0.5.1"
+    "version": "v0.5.4"
   },
   "lazy": {
     "dependencies": [
