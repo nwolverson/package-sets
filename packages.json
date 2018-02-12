@@ -665,10 +665,12 @@
       "strings",
       "refs",
       "nullable",
-      "stringutils"
+      "stringutils",
+      "errors",
+      "affjax"
     ],
     "repo": "https://github.com/nwolverson/purescript-ide-purescript-core.git",
-    "version": "v0.14.0"
+    "version": "v0.15.0"
   },
   "identity": {
     "dependencies": [
@@ -1189,7 +1191,7 @@
       "aff"
     ],
     "repo": "https://github.com/kRITZCREEK/purescript-psc-ide.git",
-    "version": "v10.0.0"
+    "version": "v10.1.0"
   },
   "psci-support": {
     "dependencies": [
