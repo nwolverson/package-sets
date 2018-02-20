@@ -670,7 +670,7 @@
       "affjax"
     ],
     "repo": "https://github.com/nwolverson/purescript-ide-purescript-core.git",
-    "version": "v0.15.0"
+    "version": "v0.16.0"
   },
   "identity": {
     "dependencies": [
