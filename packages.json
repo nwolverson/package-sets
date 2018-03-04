@@ -670,7 +670,7 @@
       "affjax"
     ],
     "repo": "https://github.com/nwolverson/purescript-ide-purescript-core.git",
-    "version": "v0.16.0"
+    "version": "v0.16.1"
   },
   "identity": {
     "dependencies": [
@@ -757,7 +757,7 @@
       "ide-purescript-core"
     ],
     "repo": "https://github.com/nwolverson/purescript-language-server.git",
-    "version": "v0.5.4"
+    "version": "v0.8.0"
   },
   "lazy": {
     "dependencies": [
