@@ -652,26 +652,6 @@
     "repo": "https://github.com/purescript-contrib/purescript-http-methods.git",
     "version": "v3.0.0"
   },
-  "ide-purescript-core": {
-    "dependencies": [
-      "psc-ide",
-      "node-fs-aff",
-      "node-child-process",
-      "node-process",
-      "arrays",
-      "maybe",
-      "either",
-      "argonaut",
-      "strings",
-      "refs",
-      "nullable",
-      "stringutils",
-      "errors",
-      "affjax"
-    ],
-    "repo": "https://github.com/nwolverson/purescript-ide-purescript-core.git",
-    "version": "v0.16.1"
-  },
   "identity": {
     "dependencies": [
       "foldable-traversable"
@@ -1191,7 +1171,7 @@
       "aff"
     ],
     "repo": "https://github.com/kRITZCREEK/purescript-psc-ide.git",
-    "version": "v10.1.0"
+    "version": "v11.0.0"
   },
   "psci-support": {
     "dependencies": [
