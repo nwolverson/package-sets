@@ -874,6 +874,16 @@
     "repo": "https://github.com/slamdata/purescript-halogen-echarts.git",
     "version": "v14.0.0"
   },
+  "halogen-leaflet": {
+    "dependencies": [
+      "console",
+      "halogen",
+      "leaflet-tdammers",
+      "prelude"
+    ],
+    "repo": "git://github.com/tdammers/purescript-halogen-leaflet",
+    "version": "master"
+  },
   "halogen-menu": {
     "dependencies": [
       "halogen"
@@ -1055,6 +1065,16 @@
     ],
     "repo": "https://github.com/purescript/purescript-lazy.git",
     "version": "v3.0.0"
+  },
+  "leaflet-tdammers": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "eff",
+      "prelude"
+    ],
+    "repo": "git://github.com/tdammers/purescript-leaflet-tdammers",
+    "version": "v0.3.0"
   },
   "leibniz": {
     "dependencies": [
